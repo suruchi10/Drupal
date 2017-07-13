@@ -1,0 +1,7 @@
+resume.admin:
+  title: 'Resume Form'
+  description: 'Fill the Form'
+
+  route_name: resume.form
+  weight: 100
+  menu_name: main
