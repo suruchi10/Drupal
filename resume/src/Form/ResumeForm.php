@@ -99,7 +99,7 @@ class ResumeForm extends FormBase {
   		'field_name' => array($values['candidate_name']),
   		'field_email' =>array($values['candidate_mail']),
   		'field_telephone' =>array($values['candidate_number']),
-  		'field_dob' =>array($values['candidate_dob']),
+  		'field_dob' =>[$form_state->getValues('candidate_dob')],
   		'field_gender' =>array($values['candidate_gender']),
   		'field_confirm' =>array($values['candidate_confirmation']),
   		'field_copy' =>array($values['candidate_copy'])
